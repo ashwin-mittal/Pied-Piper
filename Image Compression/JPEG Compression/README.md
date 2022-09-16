@@ -22,7 +22,7 @@ stateDiagram
     I: Blocks (8 x 8)
     J: Decompressed Image
     F --> G: Blocks Splitting
-    G --> H: Reverse Qunatization
+    G --> H: Reverse Quantization
     H --> I: Inverse Discrete Cosine Transform
     I --> J: Blocks Stacking
 ```
